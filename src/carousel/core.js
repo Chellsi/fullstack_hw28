@@ -12,8 +12,6 @@ const DEFAULT_SETTINGS = {
 const CODE_ARROW_LEFT = 'ArrowLeft';
 const CODE_ARROW_RIGHT = 'ArrowRight';
 const CODE_SPACE = ' ';
-const FA_PAUSE = '<i class="fas fa-pause"></i>';
-const FA_PLAY = '<i class="fas fa-play"></i>';
 
 // Базовий клас Carousel
 export class Carousel {
