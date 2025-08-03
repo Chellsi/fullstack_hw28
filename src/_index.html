@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Розмітка не використовується у тестуванні, але ви можете писати тут потрібний вам HTML та перевіряти його у браузері разом із логікою слайдера у main.js -->
+  <div id="carousel">
+    <div id="slides-container" class="slides-container">
+      <div class="slide active"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+    </div>
+    <div id="indicators-container" class="indicators-container">
+      <div class="indicator active" data-slide-to="0"></div>
+      <div class="indicator" data-slide-to="1"></div>
+      <div class="indicator" data-slide-to="2"></div>
+    </div>
+    <div id="controls-container" class="controls-container">
+      <button id="pause-btn"><i class="control fas fa-lg fa-pause"></i></button>
+      <button id="prev-btn"><i class="control fas fa-lg fa-backward"></i></button>
+      <button id="next-btn"><i class="control fas fa-lg fa-forward"></i></button>
+    </div>
+  </div>
+
+  <!-- Розташування та імя файлу скрипта змінювати неможна -->
+  <script src="main.js" type="module"></script>
+
+</body>
+
+</html>
